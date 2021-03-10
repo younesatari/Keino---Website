@@ -68,5 +68,15 @@ a {
     text-align: center; } }
 
 /* End of Understand section */
+/* Situation Section */
+#situation h1 {
+  font-weight: bold !important; }
+#situation .col-lg-3 img {
+  height: 200px !important; }
+#situation .col-lg-3 h4 {
+  font-size: 1.3rem !important;
+  font-weight: bold !important; }
+
+/* End of Situation Section */
 
 /*# sourceMappingURL=main.css.map */
