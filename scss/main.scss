@@ -1,3 +1,5 @@
+@import "media-queries";
+
 * {
    padding: 0;
    margin: 0;
@@ -14,8 +16,19 @@ a {
 
 /* HEADER */
 #header {
+   position: relative !important;
+   height: 160vh;
+
+   @include screen {
+      height: 100vh;
+   }
 
    nav {
+
+      .navbar-brand {
+         font-size: 1.4rem !important;
+      }
+
       .btn-download {
          border-radius: 13px;
          transition: box-shadow .3s ease;
@@ -25,4 +38,32 @@ a {
          }
       }
    }
+
+   #hero {
+      margin-top: 100px;
+
+      @include screen {
+         margin-top: 150px;
+      }
+
+      .hero-heading {
+         line-height: 1;
+
+         div {
+            font-weight: bold;
+         }
+      }
+   }
+
+   .img-wrapper {
+      img {
+         position: absolute !important;
+         bottom: 0;
+      }
+
+      @include screen {
+         display: none !important;
+      }
+   }
+   
 }

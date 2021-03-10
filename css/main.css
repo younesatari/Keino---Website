@@ -10,10 +10,33 @@ a {
   text-decoration: none !important; }
 
 /* HEADER */
-#header nav .btn-download {
-  border-radius: 13px;
-  transition: box-shadow .3s ease; }
-  #header nav .btn-download:hover {
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+#header {
+  position: relative !important;
+  height: 160vh; }
+  @media screen and (max-width: 768px) {
+    #header {
+      height: 100vh; } }
+  #header nav .navbar-brand {
+    font-size: 1.4rem !important; }
+  #header nav .btn-download {
+    border-radius: 13px;
+    transition: box-shadow .3s ease; }
+    #header nav .btn-download:hover {
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+  #header #hero {
+    margin-top: 100px; }
+    @media screen and (max-width: 768px) {
+      #header #hero {
+        margin-top: 150px; } }
+    #header #hero .hero-heading {
+      line-height: 1; }
+      #header #hero .hero-heading div {
+        font-weight: bold; }
+  #header .img-wrapper img {
+    position: absolute !important;
+    bottom: 0; }
+  @media screen and (max-width: 768px) {
+    #header .img-wrapper {
+      display: none !important; } }
 
 /*# sourceMappingURL=main.css.map */
