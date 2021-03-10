@@ -39,4 +39,8 @@ a {
     #header .img-wrapper {
       display: none !important; } }
 
+/* Comments Section */
+#comments h1 {
+  font-weight: bold; }
+
 /*# sourceMappingURL=main.css.map */

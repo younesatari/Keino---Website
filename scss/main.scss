@@ -24,7 +24,6 @@ a {
    }
 
    nav {
-
       .navbar-brand {
          font-size: 1.4rem !important;
       }
@@ -65,5 +64,11 @@ a {
          display: none !important;
       }
    }
-   
+}
+
+/* Comments Section */
+#comments {
+   h1 {
+      font-weight: bold;
+   }
 }
