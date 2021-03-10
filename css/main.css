@@ -15,7 +15,7 @@ a {
   height: 160vh; }
   @media screen and (max-width: 768px) {
     #header {
-      height: 100vh; } }
+      height: 90vh; } }
   #header nav .navbar-brand {
     font-size: 1.4rem !important; }
   #header nav .btn-download {
@@ -39,8 +39,34 @@ a {
     #header .img-wrapper {
       display: none !important; } }
 
+/* End of HEADER */
 /* Comments Section */
 #comments h1 {
   font-weight: bold; }
+
+/* End of Comments Section */
+/* Welcome section */
+#welcome h2 {
+  font-weight: bold;
+  font-size: 2.5rem !important; }
+  @media screen and (max-width: 768px) {
+    #welcome h2 {
+      text-align: center !important; } }
+#welcome p {
+  font-size: 1.1rem !important; }
+  @media screen and (max-width: 768px) {
+    #welcome p {
+      text-align: center !important; } }
+
+/* End of Welcome section */
+/* Understand section */
+@media screen and (max-width: 768px) {
+  #understand .understand-heading {
+    text-align: center; } }
+@media screen and (max-width: 768px) {
+  #understand p {
+    text-align: center; } }
+
+/* End of Understand section */
 
 /*# sourceMappingURL=main.css.map */

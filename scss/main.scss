@@ -20,7 +20,7 @@ a {
    height: 160vh;
 
    @include screen {
-      height: 100vh;
+      height: 90vh;
    }
 
    nav {
@@ -65,10 +65,50 @@ a {
       }
    }
 }
+/* End of HEADER */
 
 /* Comments Section */
 #comments {
+
    h1 {
       font-weight: bold;
    }
 }
+/* End of Comments Section */
+
+/* Welcome section */
+#welcome {
+   h2 {
+      font-weight: bold;
+      font-size: 2.5rem !important;
+
+      @include screen {
+         text-align: center !important;
+      }
+   }
+
+   p {
+      font-size: 1.1rem !important; 
+
+      @include screen {
+         text-align: center !important;
+      }
+   }
+}
+/* End of Welcome section */
+
+/* Understand section */
+#understand {
+   .understand-heading {
+      @include screen {
+         text-align: center;
+      }
+   }
+
+   p {
+      @include screen {
+         text-align: center;
+      }
+   }
+}
+/* End of Understand section */
