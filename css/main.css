@@ -60,6 +60,8 @@ a {
 
 /* End of Welcome section */
 /* Understand section */
+#understand .understand-heading div {
+  font-weight: bold !important; }
 @media screen and (max-width: 768px) {
   #understand .understand-heading {
     text-align: center; } }
@@ -79,6 +81,50 @@ a {
 
 /* End of Situation Section */
 /* Connect Section */
+@media screen and (max-width: 768px) {
+  #connect p {
+    text-align: center; } }
+#connect h1 {
+  font-weight: bold; }
+  @media screen and (max-width: 768px) {
+    #connect h1 {
+      text-align: center; } }
+
 /* End of Connect Section */
+/* Nums Section */
+#nums h1 {
+  font-weight: bold; }
+
+/* End of Nums Section */
+/* Plan */
+#plan h1 {
+  font-weight: bold !important; }
+#plan p {
+  margin-bottom: 5.5rem; }
+#plan .card {
+  background: transparent !important;
+  border: 2px solid #fff !important;
+  border-radius: 8px !important; }
+  #plan .card .card-title {
+    position: relative; }
+    #plan .card .card-title::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 1px;
+      width: 90%;
+      background: rgba(255, 255, 255, 0.4); }
+  #plan .card .card-footer {
+    font-weight: bold !important;
+    color: purple !important;
+    cursor: pointer; }
+#plan .card-warning .card {
+  border: 2px solid yellow !important; }
+  #plan .card-warning .card .card-footer {
+    color: #fff !important; }
+
+/* End of Plan */
 
 /*# sourceMappingURL=main.css.map */
