@@ -1,0 +1,28 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Lato', sans-serif !important;
+}
+
+a {
+   text-decoration: none !important;
+}
+
+/* HEADER */
+#header {
+
+   nav {
+      .btn-download {
+         border-radius: 13px;
+         transition: box-shadow .3s ease;
+
+         &:hover {
+            box-shadow: 0 2px 2px rgba(0,0,0,.2);
+         }
+      }
+   }
+}
