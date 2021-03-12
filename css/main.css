@@ -6,12 +6,22 @@
 body {
   font-family: 'Lato', sans-serif !important; }
 
+/* Utilities */
 a {
   text-decoration: none !important; }
 
 .sp {
   padding: 5rem .5rem; }
 
+p {
+  line-height: 1.8 !important;
+  font-size: 1.1rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+  color: rgba(0, 0, 0, 0.7) !important; }
+
+/* End of Utilities */
 /* HEADER */
 #header {
   position: relative !important;
@@ -20,7 +30,7 @@ a {
     #header {
       height: 90vh; } }
   #header nav .navbar-brand {
-    font-size: 1.4rem !important; }
+    font-size: 1.6rem !important; }
   #header nav .btn-download {
     border-radius: 13px;
     transition: box-shadow .3s ease; }
@@ -44,24 +54,26 @@ a {
 
 /* End of HEADER */
 /* Comments Section */
+#comments #slider1 {
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2) !important; }
 #comments h1 {
   font-weight: bold; }
 
 /* End of Comments Section */
-/* Welcome section */
-#welcome h2 {
+/* About section */
+#about h2 {
   font-weight: bold;
   font-size: 2.5rem !important; }
   @media screen and (max-width: 768px) {
-    #welcome h2 {
+    #about h2 {
       text-align: center !important; } }
-#welcome p {
+#about p {
   font-size: 1.1rem !important; }
   @media screen and (max-width: 768px) {
-    #welcome p {
+    #about p {
       text-align: center !important; } }
 
-/* End of Welcome section */
+/* End of About section */
 /* Understand section */
 #understand .understand-heading div {
   font-weight: bold !important; }
@@ -141,6 +153,9 @@ a {
   font-weight: bold; }
 #team .content {
   margin-top: -35px; }
+  #team .content i:hover {
+    transition: all .3s ease;
+    color: #000 !important; }
 
 /* End of Team Section */
 /* Download Section */

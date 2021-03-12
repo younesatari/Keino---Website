@@ -10,6 +10,7 @@ body {
    font-family: 'Lato', sans-serif !important;
 }
 
+/* Utilities */
 a {
    text-decoration: none !important;
 }
@@ -17,6 +18,18 @@ a {
 .sp {
    padding: 5rem .5rem;
 }
+
+p {
+   line-height: 1.8 !important;
+   font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+   font-weight: bold !important;
+   color: rgba(0,0,0,.7) !important;
+}
+
+/* End of Utilities */
 
 /* HEADER */
 #header {
@@ -29,7 +42,7 @@ a {
 
    nav {
       .navbar-brand {
-         font-size: 1.4rem !important;
+         font-size: 1.6rem !important;
       }
 
       .btn-download {
@@ -74,14 +87,18 @@ a {
 /* Comments Section */
 #comments {
 
+   #slider1 {
+      box-shadow: 5px 10px 18px rgba(0,0,0,.2) !important;
+   }
+   
    h1 {
       font-weight: bold;
    }
 }
 /* End of Comments Section */
 
-/* Welcome section */
-#welcome {
+/* About section */
+#about {
 
    h2 {
       font-weight: bold;
@@ -100,7 +117,7 @@ a {
       }
    }
 }
-/* End of Welcome section */
+/* End of About section */
 
 /* Understand section */
 #understand {
@@ -235,6 +252,13 @@ a {
 
    .content {
       margin-top: -35px;
+
+      i {
+         &:hover {
+            transition: all .3s ease;
+            color: #000 !important;
+         }
+      }
    }
 }
 /* End of Team Section */
@@ -269,11 +293,6 @@ a {
 /* End of Download Section */
 /* Footer Section */
 #footer {
-   .row {
-      @include smallScreen {
-         
-         
-      }
-   }
+  
 }
 /* End of Footer Section */
